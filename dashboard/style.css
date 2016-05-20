@@ -1,0 +1,13 @@
+thead, tr, th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.short-th {
+	text-align: center;
+}
+
+.span-th {
+	vertical-align: middle;
+	text-align: center;
+}
