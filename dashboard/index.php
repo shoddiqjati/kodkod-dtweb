@@ -1,9 +1,9 @@
 <?php
 session_start();
 if ($_SESSION['username'] == "admin") {
-	include 'result_data.php';
+	header("Location: nisn");
 } else {
-	echo "login gagal";
-	//header("Location: ../error-404/")
+	//echo "login gagal";
+	header("Location: ../error-404/");
 }
 ?>
